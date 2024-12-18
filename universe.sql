@@ -353,6 +353,9 @@ INSERT INTO public.star VALUES (7, 'M-7', 32.0, false, 1, NULL);
 -- Data for Name: test; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
+INSERT INTO public.test VALUES (1, 'i', NULL);
+INSERT INTO public.test VALUES (2, 'am', NULL);
+INSERT INTO public.test VALUES (3, 'spiderman', NULL);
 
 
 --
@@ -387,7 +390,7 @@ SELECT pg_catalog.setval('public.star_star_id_seq', 7, true);
 -- Name: test_test_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.test_test_id_seq', 1, false);
+SELECT pg_catalog.setval('public.test_test_id_seq', 3, true);
 
 
 --
